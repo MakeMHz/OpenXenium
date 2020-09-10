@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Xenium2019)(type KiCad)(uri "$(KIPRJMOD)/Xenium2019.pretty")(options "")(descr ""))
+)

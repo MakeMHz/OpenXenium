@@ -1,0 +1,1384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 16774 11609
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6200 7700 0    70   ~ 0
+JTAG:TCK,TDI,TDO,TMS
+Text Label 7300 7900 0    70   ~ 0
+LPCBUS:CS,LAD0,LAD1,LAD2,LAD3,LCLK,LFRAME,RST
+Wire Wire Line
+	6800 4700 6200 4700
+Wire Wire Line
+	6200 4700 6200 3300
+Wire Wire Line
+	6200 3300 6300 3300
+Text Label 6200 4700 2    50   ~ 0
+A1
+Wire Wire Line
+	6800 4800 6100 4800
+Wire Wire Line
+	6100 4800 6100 3200
+Wire Wire Line
+	6100 3200 6300 3200
+Text Label 6450 4800 2    50   ~ 0
+A2
+Wire Wire Line
+	6800 5000 6000 5000
+Wire Wire Line
+	6000 5000 6000 3100
+Wire Wire Line
+	6000 3100 6300 3100
+Text Label 6375 5000 2    50   ~ 0
+A3
+Wire Wire Line
+	6800 5100 5900 5100
+Wire Wire Line
+	5900 5100 5900 3000
+Wire Wire Line
+	5900 3000 6300 3000
+Text Label 6350 5100 2    50   ~ 0
+A4
+Wire Wire Line
+	7300 4000 7300 2900
+Wire Wire Line
+	7300 2900 6300 2900
+Text Label 7300 3900 1    50   ~ 0
+A5
+Wire Wire Line
+	7400 4000 7400 2800
+Wire Wire Line
+	7400 2800 6300 2800
+Text Label 7400 3900 1    50   ~ 0
+A6
+Wire Wire Line
+	7500 4000 7500 2700
+Wire Wire Line
+	7500 2700 6300 2700
+Text Label 7500 3900 1    50   ~ 0
+A7
+Wire Wire Line
+	7600 4000 7600 2600
+Wire Wire Line
+	7600 2600 6300 2600
+Text Label 7600 3875 1    50   ~ 0
+A17
+Wire Wire Line
+	7700 4000 7700 2500
+Wire Wire Line
+	7700 2500 6300 2500
+Text Label 7700 3900 1    50   ~ 0
+A18
+Wire Wire Line
+	7800 4000 7800 1700
+Wire Wire Line
+	7800 1700 6300 1700
+Text Label 7800 3900 1    50   ~ 0
+A8
+Wire Wire Line
+	7900 4000 7900 1600
+Wire Wire Line
+	7900 1600 6300 1600
+Text Label 7900 3900 1    50   ~ 0
+A9
+Wire Wire Line
+	8000 4000 8000 1500
+Wire Wire Line
+	8000 1500 6300 1500
+Text Label 8000 3900 1    50   ~ 0
+A10
+Wire Wire Line
+	8100 4000 8100 1400
+Wire Wire Line
+	8100 1400 6300 1400
+Text Label 8100 3900 1    50   ~ 0
+A11
+Wire Wire Line
+	8500 4000 8500 1300
+Wire Wire Line
+	8500 1300 6300 1300
+Text Label 8500 3900 1    50   ~ 0
+A12
+Wire Wire Line
+	8600 4000 8600 1200
+Wire Wire Line
+	8600 1200 6300 1200
+Text Label 8600 3900 1    50   ~ 0
+A13
+Wire Wire Line
+	8700 4000 8700 1100
+Wire Wire Line
+	8700 1100 6300 1100
+Text Label 8700 3900 1    50   ~ 0
+A14
+Wire Wire Line
+	8800 4000 8800 1000
+Wire Wire Line
+	8800 1000 6300 1000
+Text Label 8800 3900 1    50   ~ 0
+A15
+Wire Wire Line
+	9400 4700 10300 4700
+Wire Wire Line
+	10300 4700 10300 1000
+Wire Wire Line
+	10300 1000 12500 1000
+Text Label 9850 4700 2    50   ~ 0
+A16
+Wire Wire Line
+	10400 1300 10400 4800
+Wire Wire Line
+	10400 4800 9400 4800
+Text Label 9900 4800 2    50   ~ 0
+A-1
+Wire Wire Line
+	9400 4900 10500 4900
+Wire Wire Line
+	10500 4900 10500 1400
+Wire Wire Line
+	10500 1400 12500 1400
+Text Label 9950 4900 2    50   ~ 0
+DQ7
+Wire Wire Line
+	9400 5000 10600 5000
+Wire Wire Line
+	10600 5000 10600 1600
+Wire Wire Line
+	12500 1600 10600 1600
+Text Label 10000 5000 2    50   ~ 0
+DQ6
+Wire Wire Line
+	9400 5100 10700 5100
+Wire Wire Line
+	10700 5100 10700 1800
+Wire Wire Line
+	10700 1800 12500 1800
+Text Label 10050 5100 2    50   ~ 0
+DQ5
+Wire Wire Line
+	9400 5200 10800 5200
+Wire Wire Line
+	10800 5200 10800 2000
+Wire Wire Line
+	10800 2000 12500 2000
+Text Label 10100 5200 2    50   ~ 0
+DQ4
+Wire Wire Line
+	9400 5300 10900 5300
+Wire Wire Line
+	10900 5300 10900 2300
+Wire Wire Line
+	10900 2300 12500 2300
+Text Label 10150 5300 2    50   ~ 0
+DQ3
+Wire Wire Line
+	9400 5500 11000 5500
+Wire Wire Line
+	11000 5500 11000 2500
+Wire Wire Line
+	11000 2500 12500 2500
+Text Label 10200 5500 2    50   ~ 0
+DQ2
+Wire Wire Line
+	9400 5600 11100 5600
+Wire Wire Line
+	11100 5600 11100 2700
+Wire Wire Line
+	11100 2700 12500 2700
+Text Label 10250 5600 2    50   ~ 0
+DQ1
+Wire Wire Line
+	9400 5700 11200 5700
+Wire Wire Line
+	11200 5700 11200 2900
+Wire Wire Line
+	11200 2900 12500 2900
+Text Label 10300 5700 2    50   ~ 0
+DQ0
+Wire Wire Line
+	9400 5900 11300 5900
+Wire Wire Line
+	11300 5900 11300 3000
+Wire Wire Line
+	11300 3000 12500 3000
+Text Label 11300 4450 2    50   ~ 0
+~OE
+Wire Wire Line
+	9400 6200 9400 7900
+Wire Wire Line
+	9400 8100 9400 8600
+Wire Wire Line
+	9400 8600 8100 8600
+Wire Wire Line
+	9400 7900 9350 7950
+Wire Wire Line
+	9350 7950 9350 8050
+Wire Wire Line
+	9350 8050 9400 8100
+Text Label 8100 9150 1    50   ~ 0
+MOSI
+Text Label 9400 7300 1    50   ~ 0
+MOSI
+Wire Wire Line
+	9400 6000 11400 6000
+Wire Wire Line
+	11400 6000 11400 3300
+Wire Wire Line
+	11400 3300 12500 3300
+Text Label 11400 4650 2    50   ~ 0
+A0
+Wire Wire Line
+	11100 8200 11750 8200
+Wire Wire Line
+	11750 8200 11750 7900
+Wire Wire Line
+	11750 8400 11750 8200
+Connection ~ 11750 8200
+Text Label 11300 8200 0    40   ~ 0
++3V3
+Wire Wire Line
+	6800 4900 6500 4900
+Wire Wire Line
+	6500 4900 6500 4550
+Text Label 6800 4900 0    10   ~ 0
++3V3
+Wire Wire Line
+	8200 4000 8200 3750
+Text Label 8200 4000 0    10   ~ 0
++3V3
+Wire Wire Line
+	9800 5800 9700 5800
+Wire Wire Line
+	9700 5800 9400 5800
+Wire Wire Line
+	9700 6100 9700 5800
+Connection ~ 9700 5800
+Text Label 9800 5800 0    10   ~ 0
++3V3
+Wire Wire Line
+	8200 6900 8200 7050
+Text Label 8200 6900 0    10   ~ 0
++3V3
+Text Label 8900 9400 0    10   ~ 0
++3V3
+Wire Wire Line
+	5750 7750 6000 7750
+Text Label 5750 7750 0    10   ~ 0
++3V3
+Wire Wire Line
+	6300 2100 5800 2100
+Wire Wire Line
+	5800 2100 5800 1550
+Text Label 6300 2100 0    10   ~ 0
++3V3
+Wire Wire Line
+	12500 2100 12900 2100
+Wire Wire Line
+	12900 2100 12900 1950
+Wire Wire Line
+	12900 2450 12900 2100
+Connection ~ 12900 2100
+Text Label 12500 2100 0    10   ~ 0
++3V3
+Wire Wire Line
+	3700 3600 3700 3350
+Text Label 3700 3600 0    10   ~ 0
++3V3
+Text Label 5300 4800 0    10   ~ 0
++3V3
+Wire Wire Line
+	10800 8000 10450 8000
+Wire Wire Line
+	10450 8000 10450 7600
+Text Label 10500 8000 0    40   ~ 0
++5V
+Wire Wire Line
+	10800 7800 10300 7800
+Wire Wire Line
+	10300 7800 10300 8250
+Wire Wire Line
+	10300 8250 10300 8850
+Wire Wire Line
+	10800 8300 10500 8300
+Wire Wire Line
+	10500 8300 10450 8250
+Wire Wire Line
+	10450 8250 10300 8250
+Text Label 10500 7800 0    40   ~ 0
+GND
+Connection ~ 10300 8250
+Text Label 10500 8300 0    40   ~ 0
+GND
+Wire Wire Line
+	6800 6000 6500 6000
+Wire Wire Line
+	6500 6000 6500 6400
+Connection ~ 6500 6000
+Text Label 6800 6000 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 4000 8300 3200
+Wire Wire Line
+	8300 3200 9050 3200
+Wire Wire Line
+	9050 3200 9050 3700
+Text Label 8300 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 5400 9400 5400
+Text Label 9500 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 7200 7700 6900
+Text Label 7700 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	8400 9400 8400 9750
+Text Label 8400 9400 0    10   ~ 0
+GND
+Wire Wire Line
+	5750 7650 6150 7650
+Wire Wire Line
+	6150 7650 6150 8200
+Text Label 5750 7650 0    10   ~ 0
+GND
+Wire Wire Line
+	12500 1200 12900 1200
+Wire Wire Line
+	12900 1200 12900 1350
+Wire Wire Line
+	12500 1100 12900 1100
+Wire Wire Line
+	12900 1100 12900 1200
+Connection ~ 12900 1200
+Text Label 12500 1200 0    10   ~ 0
+GND
+Wire Wire Line
+	12500 3100 12900 3100
+Wire Wire Line
+	12900 3100 12900 3200
+Wire Wire Line
+	12900 3200 12900 3350
+Wire Wire Line
+	12500 3200 12900 3200
+Wire Wire Line
+	12900 2750 12900 3100
+Connection ~ 12900 3200
+Connection ~ 12900 3100
+Text Label 12500 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	11750 8700 11750 9000
+Text Label 11750 8700 0    10   ~ 0
+GND
+Wire Wire Line
+	3900 7400 3900 7200
+Wire Wire Line
+	3900 7200 3900 6500
+Wire Wire Line
+	3900 6500 3900 5800
+Wire Wire Line
+	4200 5700 4200 5800
+Wire Wire Line
+	4200 5800 3900 5800
+Wire Wire Line
+	3900 6500 4200 6500
+Connection ~ 3900 6500
+Connection ~ 3900 7200
+Text Label 3900 7400 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 7200 11000 7100
+Text Label 11000 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	7800 9500 7800 9750
+Text Label 7800 9500 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 9500 9100 9760
+Text Label 9100 9500 0    10   ~ 0
+GND
+Wire Wire Line
+	8500 9400 8500 8400
+Wire Wire Line
+	8500 8400 7400 8400
+Wire Wire Line
+	7400 7900 7400 6900
+Wire Wire Line
+	7400 7900 7350 7950
+Wire Wire Line
+	7350 7950 7350 8050
+Wire Wire Line
+	7400 8100 7350 8050
+Text Label 8500 9150 1    50   ~ 0
+CS
+Text Label 7400 7300 1    50   ~ 0
+CS
+Text Label 8300 9150 1    50   ~ 0
+INPUT
+Wire Wire Line
+	8200 9400 8200 8500
+Wire Wire Line
+	8200 8500 8800 8500
+Wire Wire Line
+	8800 8500 8800 8100
+Wire Wire Line
+	8800 7900 8800 6900
+Wire Wire Line
+	8800 7900 8750 7950
+Wire Wire Line
+	8750 7950 8750 8050
+Wire Wire Line
+	8750 8050 8800 8100
+Text Label 8200 9150 1    50   ~ 0
+SCK
+Text Label 8800 7275 1    50   ~ 0
+SCK
+Wire Wire Line
+	9400 6100 9500 6100
+Wire Wire Line
+	9500 6100 9500 7900
+Wire Wire Line
+	9500 8100 9500 8700
+Wire Wire Line
+	9500 8700 8000 8700
+Wire Wire Line
+	8000 8700 8000 9400
+Wire Wire Line
+	9500 7900 9450 7950
+Wire Wire Line
+	9450 7950 9450 8050
+Wire Wire Line
+	9450 8050 9500 8100
+Text Label 8000 9150 1    50   ~ 0
+MISO
+Text Label 9500 7300 1    50   ~ 0
+MISO
+Wire Wire Line
+	8100 6900 8100 7900
+Text Label 8100 7900 1    50   ~ 0
+LAD2
+Wire Wire Line
+	9900 8100 10800 8100
+Text Label 9900 8100 0    70   ~ 0
+LAD2
+Text Label 9900 8100 0    40   ~ 0
+LAD2
+Wire Wire Line
+	8000 7900 8000 6900
+Text Label 8000 7900 1    50   ~ 0
+LAD1
+Wire Wire Line
+	10800 8200 9900 8200
+Text Label 9900 8200 0    70   ~ 0
+LAD1
+Text Label 9900 8200 0    40   ~ 0
+LAD1
+Wire Wire Line
+	7800 7900 7800 6900
+Text Label 7800 7900 1    50   ~ 0
+LAD0
+Wire Wire Line
+	11100 8300 11400 8300
+Wire Wire Line
+	11400 8300 11400 8500
+Wire Wire Line
+	11400 8500 10600 8500
+Wire Wire Line
+	10600 8500 10400 8300
+Wire Wire Line
+	10400 8300 9900 8300
+Text Label 9900 8300 0    70   ~ 0
+LAD0
+Text Label 11300 8300 0    40   ~ 0
+LAD0
+Wire Wire Line
+	7900 7900 7900 6900
+Text Label 7900 7900 1    50   ~ 0
+LAD3
+Wire Wire Line
+	11100 8100 11450 8100
+Wire Wire Line
+	11450 8100 11450 8600
+Wire Wire Line
+	11450 8600 10600 8600
+Wire Wire Line
+	10600 8600 10400 8400
+Wire Wire Line
+	10400 8400 9900 8400
+Text Label 9900 8400 0    70   ~ 0
+LAD3
+Text Label 11300 8100 0    40   ~ 0
+LAD3
+Wire Wire Line
+	7500 6900 7500 7900
+Text Label 7500 7900 1    50   ~ 0
+RST
+Wire Wire Line
+	9900 8500 10400 8500
+Wire Wire Line
+	10400 8500 10600 8700
+Wire Wire Line
+	10600 8700 11500 8700
+Wire Wire Line
+	11500 8700 11500 8000
+Wire Wire Line
+	11500 8000 11100 8000
+Text Label 9900 8500 0    70   ~ 0
+RST
+Text Label 11300 8000 0    40   ~ 0
+RST
+Wire Wire Line
+	7600 6900 7600 7900
+Text Label 7600 7900 1    50   ~ 0
+LFRAME
+Wire Wire Line
+	9900 8600 10400 8600
+Wire Wire Line
+	10400 8600 10600 8800
+Wire Wire Line
+	10600 8800 11550 8800
+Wire Wire Line
+	11550 8800 11550 7900
+Wire Wire Line
+	11550 7900 11100 7900
+Text Label 9900 8600 0    70   ~ 0
+LFRAME
+Text Label 11300 7900 0    40   ~ 0
+LFRAME
+Wire Wire Line
+	9900 7900 9800 7700
+Wire Wire Line
+	9800 7200 10700 7200
+Wire Wire Line
+	10700 7200 10700 6400
+Text Label 11600 6400 2    70   ~ 0
+LFRAME
+Wire Wire Line
+	7300 6900 7300 7900
+Text Label 7300 7900 1    50   ~ 0
+LCLK
+Wire Wire Line
+	9900 8700 10400 8700
+Wire Wire Line
+	10400 8700 10600 8900
+Wire Wire Line
+	10600 8900 11600 8900
+Wire Wire Line
+	11600 8900 11600 7800
+Wire Wire Line
+	11600 7800 11100 7800
+Text Label 9900 8700 0    70   ~ 0
+LCLK
+Text Label 11300 7800 0    40   ~ 0
+LCLK
+Text Label 8600 7300 1    50   ~ 0
+TCK
+Wire Wire Line
+	6100 7550 5750 7550
+Text Label 6100 7550 0    50   ~ 0
+TCK
+Text Label 8500 7300 1    50   ~ 0
+TMS
+Text Label 6100 7450 0    50   ~ 0
+TMS
+Text Label 8400 7300 1    50   ~ 0
+TDI
+Wire Wire Line
+	6100 7350 5750 7350
+Text Label 6100 7350 0    50   ~ 0
+TDI
+Text Label 6000 7250 0    50   ~ 0
+TDO
+Text Label 6300 7250 0    70   ~ 0
+TDO
+Wire Wire Line
+	8400 4000 8400 3750
+Text Label 8400 3750 1    50   ~ 0
+TDO
+Wire Wire Line
+	6800 5900 5300 5900
+Wire Wire Line
+	5300 5900 5050 5900
+Wire Wire Line
+	5300 5400 5300 5900
+Connection ~ 5300 5900
+Text Label 6050 5900 2    50   ~ 0
+RECOVER
+Wire Wire Line
+	6300 1800 5500 1800
+Wire Wire Line
+	5500 5500 6800 5500
+Text Label 6150 5500 2    50   ~ 0
+A19
+Wire Wire Line
+	6300 1900 5600 1900
+Wire Wire Line
+	5600 1900 5600 5400
+Wire Wire Line
+	5600 5400 6800 5400
+Text Label 6200 5400 2    50   ~ 0
+NC_2
+Wire Wire Line
+	6300 2000 5700 2000
+Wire Wire Line
+	5700 2000 5700 5300
+Wire Wire Line
+	5700 5300 6800 5300
+Text Label 6250 5300 2    50   ~ 0
+~WE
+Wire Wire Line
+	6300 2200 5800 2200
+Wire Wire Line
+	5800 2200 5800 5200
+Wire Wire Line
+	5800 5200 6800 5200
+Text Label 6300 5200 2    50   ~ 0
+NC
+Text Label 6800 5600 2    50   ~ 0
+B
+Wire Wire Line
+	4600 5700 4600 6400
+Text Label 5950 5700 2    50   ~ 0
+G
+Wire Wire Line
+	4700 5800 4700 7100
+Text Label 4700 7100 2    50   ~ 0
+R
+Wire Wire Line
+	8700 7000 8700 6900
+Wire Wire Line
+	10800 7000 10700 7000
+Wire Wire Line
+	11700 6500 11000 6500
+Wire Wire Line
+	11000 6500 11000 6700
+Wire Wire Line
+	3800 4600 3800 4500
+Wire Wire Line
+	3600 4600 3600 4500
+Wire Wire Line
+	3700 5300 4200 5300
+Wire Wire Line
+	3700 5300 3600 5300
+Wire Wire Line
+	3600 5300 3400 5300
+Wire Wire Line
+	3700 5300 3700 5000
+Connection ~ 3700 5300
+Text Label 3400 5300 2    50   ~ 0
+B_EXT
+Wire Wire Line
+	8800 9400 8800 9100
+Text Label 8800 9100 1    50   ~ 0
+B_EXT
+Wire Wire Line
+	3800 6100 4200 6100
+Wire Wire Line
+	3800 6100 3400 6100
+Wire Wire Line
+	3800 5000 3800 6100
+Connection ~ 3800 6100
+Text Label 3400 6100 2    50   ~ 0
+G_EXT
+Wire Wire Line
+	8700 9400 8700 9100
+Text Label 8700 9100 1    50   ~ 0
+G_EXT
+Wire Wire Line
+	4200 6800 3600 6800
+Wire Wire Line
+	3600 6800 3400 6800
+Wire Wire Line
+	3600 5000 3600 6800
+Connection ~ 3600 6800
+Text Label 3400 6800 2    50   ~ 0
+R_EXT
+Wire Wire Line
+	8600 9400 8600 9100
+Text Label 8600 9100 1    50   ~ 0
+R_EXT
+Entry Wire Line
+	6100 7550 6200 7450
+Entry Wire Line
+	6100 7550 6200 7450
+Entry Wire Line
+	6100 7450 6200 7350
+Entry Wire Line
+	6100 7450 6200 7350
+Entry Wire Line
+	6100 7350 6200 7250
+Entry Wire Line
+	6100 7350 6200 7250
+Entry Wire Line
+	8500 7700 8600 7600
+Entry Wire Line
+	8400 7700 8500 7600
+Entry Wire Line
+	8300 7700 8400 7600
+Entry Wire Line
+	9800 8200 9900 8100
+Entry Wire Line
+	9800 8100 9900 8200
+Entry Wire Line
+	9800 8200 9900 8300
+Entry Wire Line
+	9800 8300 9900 8400
+Entry Wire Line
+	9800 8400 9900 8500
+Entry Wire Line
+	9800 8500 9900 8600
+Entry Wire Line
+	9800 8600 9900 8700
+Entry Wire Line
+	9800 8000 9900 7900
+Entry Wire Line
+	8000 8000 8100 7900
+Entry Wire Line
+	8000 8000 8100 7900
+Entry Wire Line
+	7900 8000 8000 7900
+Entry Wire Line
+	7900 8000 8000 7900
+Entry Wire Line
+	7700 8000 7800 7900
+Entry Wire Line
+	7700 8000 7800 7900
+Entry Wire Line
+	7800 8000 7900 7900
+Entry Wire Line
+	7800 8000 7900 7900
+Entry Wire Line
+	7400 8000 7500 7900
+Entry Wire Line
+	7400 8000 7500 7900
+Entry Wire Line
+	7500 8000 7600 7900
+Entry Wire Line
+	7500 8000 7600 7900
+Entry Wire Line
+	7300 7900 7400 8000
+Entry Wire Line
+	7300 8100 7400 8200
+$Comp
+L Xenium2019-eagle-import:XC9572XL-10VQG64 U1
+U 1 1 F9562130
+P 7700 5200
+F 0 "U1" H 7700 5200 50  0001 C CNN
+F 1 "XC9572XL-10VQG64" H 7700 5200 50  0001 C CNN
+F 2 "Xenium2019:LQFP64" H 7700 5200 50  0001 C CNN
+F 3 "" H 7700 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:AM29LV160M U2
+U 1 1 C2DEB937
+P 7000 1500
+F 0 "U2" H 6600 2150 42  0000 L BNN
+F 1 "AM29LV160M" H 6600 2200 42  0000 L BNN
+F 2 "Xenium2019:TSOP48" H 7000 1500 50  0001 C CNN
+F 3 "" H 7000 1500 50  0001 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V01
+U 1 1 406B5002
+P 11750 7800
+F 0 "#+3V01" H 11750 7800 50  0001 C CNN
+F 1 "+3V3" V 11900 7600 59  0000 L BNN
+F 2 "" H 11750 7800 50  0001 C CNN
+F 3 "" H 11750 7800 50  0001 C CNN
+	1    11750 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V02
+U 1 1 37D36547
+P 8200 3650
+F 0 "#+3V02" H 8200 3650 50  0001 C CNN
+F 1 "+3V3" V 8275 3725 59  0000 R TNN
+F 2 "" H 8200 3650 50  0001 C CNN
+F 3 "" H 8200 3650 50  0001 C CNN
+	1    8200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V03
+U 1 1 A56F219E
+P 6500 4450
+F 0 "#+3V03" H 6500 4450 50  0001 C CNN
+F 1 "+3V3" V 6400 4250 59  0000 L BNN
+F 2 "" H 6500 4450 50  0001 C CNN
+F 3 "" H 6500 4450 50  0001 C CNN
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+5V #P+01
+U 1 1 BCDF72C5
+P 10450 7500
+F 0 "#P+01" H 10450 7500 50  0001 C CNN
+F 1 "+5V" V 10350 7300 59  0000 L BNN
+F 2 "" H 10450 7500 50  0001 C CNN
+F 3 "" H 10450 7500 50  0001 C CNN
+	1    10450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 10300 8950
+F 0 "#GND01" H 10300 8950 50  0001 C CNN
+F 1 "GND" H 10200 8850 59  0000 L BNN
+F 2 "" H 10300 8950 50  0001 C CNN
+F 3 "" H 10300 8950 50  0001 C CNN
+	1    10300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 6500 6500
+F 0 "#GND02" H 6500 6500 50  0001 C CNN
+F 1 "GND" H 6400 6400 59  0000 L BNN
+F 2 "" H 6500 6500 50  0001 C CNN
+F 3 "" H 6500 6500 50  0001 C CNN
+	1    6500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 9050 3800
+F 0 "#GND03" H 9050 3800 50  0001 C CNN
+F 1 "GND" H 8950 3700 59  0000 L BNN
+F 2 "" H 9050 3800 50  0001 C CNN
+F 3 "" H 9050 3800 50  0001 C CNN
+	1    9050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND04
+U 1 1 D896219B
+P 9600 5400
+F 0 "#GND04" H 9600 5400 50  0001 C CNN
+F 1 "GND" H 9500 5300 59  0000 L BNN
+F 2 "" H 9600 5400 50  0001 C CNN
+F 3 "" H 9600 5400 50  0001 C CNN
+	1    9600 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V04
+U 1 1 E81106EE
+P 9900 5800
+F 0 "#+3V04" H 9900 5800 50  0001 C CNN
+F 1 "+3V3" V 9900 5825 59  0000 L BNN
+F 2 "" H 9900 5800 50  0001 C CNN
+F 3 "" H 9900 5800 50  0001 C CNN
+	1    9900 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V05
+U 1 1 D30003A2
+P 8200 7150
+F 0 "#+3V05" H 8200 7150 50  0001 C CNN
+F 1 "+3V3" V 8200 7300 59  0000 R TNN
+F 2 "" H 8200 7150 50  0001 C CNN
+F 3 "" H 8200 7150 50  0001 C CNN
+	1    8200 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 7700 7300
+F 0 "#GND05" H 7700 7300 50  0001 C CNN
+F 1 "GND" V 7700 7300 59  0000 L BNN
+F 2 "" H 7700 7300 50  0001 C CNN
+F 3 "" H 7700 7300 50  0001 C CNN
+	1    7700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:PINHD-1X6 JTAG1
+U 1 1 264378EC
+P 5650 7450
+F 0 "JTAG1" H 5400 7875 59  0000 L BNN
+F 1 "PINHD-1X6" H 5400 7050 59  0000 L BNN
+F 2 "Xenium2019:1X06" H 5650 7450 50  0001 C CNN
+F 3 "" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V06
+U 1 1 F50F61D1
+P 8900 8850
+F 0 "#+3V06" H 8900 8850 50  0001 C CNN
+F 1 "+3V3" V 9050 8700 59  0000 L BNN
+F 2 "" H 8900 8850 50  0001 C CNN
+F 3 "" H 8900 8850 50  0001 C CNN
+	1    8900 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 8400 9850
+F 0 "#GND06" H 8400 9850 50  0001 C CNN
+F 1 "GND" H 8300 9750 59  0000 L BNN
+F 2 "" H 8400 9850 50  0001 C CNN
+F 3 "" H 8400 9850 50  0001 C CNN
+	1    8400 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 6150 8300
+F 0 "#GND07" H 6150 8300 50  0001 C CNN
+F 1 "GND" H 6050 8200 59  0000 L BNN
+F 2 "" H 6150 8300 50  0001 C CNN
+F 3 "" H 6150 8300 50  0001 C CNN
+	1    6150 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V07
+U 1 1 A36165E5
+P 6100 7750
+F 0 "#+3V07" H 6100 7750 50  0001 C CNN
+F 1 "+3V3" V 6400 7775 59  0000 R TNN
+F 2 "" H 6100 7750 50  0001 C CNN
+F 3 "" H 6100 7750 50  0001 C CNN
+	1    6100 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:PINHD-1X2 RECOVERY1
+U 1 1 24053CE8
+P 4950 5900
+F 0 "RECOVERY1" H 4500 6125 59  0000 L BNN
+F 1 "PINHD-1X2" H 4700 5700 59  0000 L BNN
+F 2 "Xenium2019:1X02" H 4950 5900 50  0001 C CNN
+F 3 "" H 4950 5900 50  0001 C CNN
+	1    4950 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V08
+U 1 1 1B9F338C
+P 5800 1450
+F 0 "#+3V08" H 5800 1450 50  0001 C CNN
+F 1 "+3V3" V 5700 1250 59  0000 L BNN
+F 2 "" H 5800 1450 50  0001 C CNN
+F 3 "" H 5800 1450 50  0001 C CNN
+	1    5800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 12900 1450
+F 0 "#GND08" H 12900 1450 50  0001 C CNN
+F 1 "GND" H 12800 1350 59  0000 L BNN
+F 2 "" H 12900 1450 50  0001 C CNN
+F 3 "" H 12900 1450 50  0001 C CNN
+	1    12900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 12900 3450
+F 0 "#GND09" H 12900 3450 50  0001 C CNN
+F 1 "GND" H 12800 3350 59  0000 L BNN
+F 2 "" H 12900 3450 50  0001 C CNN
+F 3 "" H 12900 3450 50  0001 C CNN
+	1    12900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V09
+U 1 1 21780286
+P 12900 1850
+F 0 "#+3V09" H 12900 1850 50  0001 C CNN
+F 1 "+3V3" V 12800 1650 59  0000 L BNN
+F 2 "" H 12900 1850 50  0001 C CNN
+F 3 "" H 12900 1850 50  0001 C CNN
+	1    12900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:C-EUC0603 C1
+U 1 1 218CB388
+P 12900 2550
+F 0 "C1" H 12960 2565 59  0000 L BNN
+F 1 "100n" H 12960 2365 59  0000 L BNN
+F 2 "Xenium2019:C0603" H 12900 2550 50  0001 C CNN
+F 3 "" H 12900 2550 50  0001 C CNN
+	1    12900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:C-EUC0603 C2
+U 1 1 69098DAB
+P 9700 6200
+F 0 "C2" H 9760 6215 59  0000 L BNN
+F 1 "100n" H 9760 6015 59  0000 L BNN
+F 2 "Xenium2019:C0603" H 9700 6200 50  0001 C CNN
+F 3 "" H 9700 6200 50  0001 C CNN
+	1    9700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 9700 6500
+F 0 "#GND011" H 9700 6500 50  0001 C CNN
+F 1 "GND" H 9600 6400 59  0000 L BNN
+F 2 "" H 9700 6500 50  0001 C CNN
+F 3 "" H 9700 6500 50  0001 C CNN
+	1    9700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:C-EUC0603 C4
+U 1 1 B07FA321
+P 11750 8500
+F 0 "C4" H 11810 8515 59  0000 L BNN
+F 1 "10u" H 11810 8315 59  0000 L BNN
+F 2 "Xenium2019:C0603" H 11750 8500 50  0001 C CNN
+F 3 "" H 11750 8500 50  0001 C CNN
+	1    11750 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND012
+U 1 1 A5F18D96
+P 11750 9100
+F 0 "#GND012" H 11750 9100 50  0001 C CNN
+F 1 "GND" H 11650 9000 59  0000 L BNN
+F 2 "" H 11750 9100 50  0001 C CNN
+F 3 "" H 11750 9100 50  0001 C CNN
+	1    11750 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND013
+U 1 1 9E3D6951
+P 3900 7500
+F 0 "#GND013" H 3900 7500 50  0001 C CNN
+F 1 "GND" H 3800 7400 59  0000 L BNN
+F 2 "" H 3900 7500 50  0001 C CNN
+F 3 "" H 3900 7500 50  0001 C CNN
+	1    3900 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V010
+U 1 1 7D3B51B6
+P 3700 3250
+F 0 "#+3V010" H 3700 3250 50  0001 C CNN
+F 1 "+3V3" V 3600 3050 59  0000 L BNN
+F 2 "" H 3700 3250 50  0001 C CNN
+F 3 "" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND014
+U 1 1 109F320A
+P 11000 7300
+F 0 "#GND014" H 11000 7300 50  0001 C CNN
+F 1 "GND" H 10900 7200 59  0000 L BNN
+F 2 "" H 11000 7300 50  0001 C CNN
+F 3 "" H 11000 7300 50  0001 C CNN
+	1    11000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:SMD2 D0
+U 1 1 8DA96C6B
+P 11800 6500
+F 0 "D0" H 12000 6500 59  0000 L TNN
+F 1 "SMD2" H 11755 6370 59  0000 L BNN
+F 2 "Xenium2019:SMD1,27-2,54" H 11800 6500 50  0001 C CNN
+F 3 "" H 11800 6500 50  0001 C CNN
+	1    11800 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:R-EU_R0603 R5
+U 1 1 F5E59E3A
+P 5300 5200
+F 0 "R5" H 5150 5259 59  0000 L BNN
+F 1 "1k" H 5150 5070 59  0000 L BNN
+F 2 "Xenium2019:R0603" H 5300 5200 50  0001 C CNN
+F 3 "" H 5300 5200 50  0001 C CNN
+	1    5300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:+3V3 #+3V011
+U 1 1 2B08D267
+P 5300 4700
+F 0 "#+3V011" H 5300 4700 50  0001 C CNN
+F 1 "+3V3" V 5200 4500 59  0000 L BNN
+F 2 "" H 5300 4700 50  0001 C CNN
+F 3 "" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:NMOSSOT23 Q1
+U 1 1 D0ED0C53
+P 4200 7000
+F 0 "Q1" H 3950 7000 59  0000 L BNN
+F 1 "310mA/60V/1.6Ω" H 4300 7000 59  0001 L BNN
+F 2 "Xenium2019:SOT-23" H 4200 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+	1    4200 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:R-EU_R0603 R1
+U 1 1 25E93B87
+P 3700 4800
+F 0 "R1" H 3600 4791 59  0000 R TNN
+F 1 "68" H 3950 4780 59  0000 R TNN
+F 2 "Xenium2019:R0603" H 3700 4800 50  0001 C CNN
+F 3 "" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:R-EU_R0603 R2
+U 1 1 1DEF0912
+P 3800 4800
+F 0 "R2" H 3700 4791 59  0000 R TNN
+F 1 "68" H 4050 4780 59  0000 R TNN
+F 2 "Xenium2019:R0603" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:R-EU_R0603 R3
+U 1 1 BA51CED9
+P 3600 4800
+F 0 "R3" H 3500 4791 59  0000 R TNN
+F 1 "68" H 3850 4780 59  0000 R TNN
+F 2 "Xenium2019:R0603" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:19-237_R6GHBHC-A07_2T L1
+U 1 1 4CAB314C
+P 3700 4100
+F 0 "L1" H 3400 4312 70  0000 L BNN
+F 1 "19-237_R6GHBHC-A07_2T" H 3400 3887 70  0000 L TNN
+F 2 "Xenium2019:4-SMD-R6GHBHC" H 3700 4100 50  0001 C CNN
+F 3 "" H 3700 4100 50  0001 C CNN
+	1    3700 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:NMOSSOT23 Q2
+U 1 1 70D50776
+P 4200 6300
+F 0 "Q2" H 3950 6300 59  0000 L BNN
+F 1 "310mA/60V/1.6Ω" H 4300 6300 59  0001 L BNN
+F 2 "Xenium2019:SOT-23" H 4200 6300 50  0001 C CNN
+F 3 "" H 4200 6300 50  0001 C CNN
+	1    4200 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:NMOSSOT23 Q4
+U 1 1 98FD0992
+P 11000 6900
+F 0 "Q4" H 11200 6900 59  0000 L BNN
+F 1 "310mA/60V/1.6Ω" H 11100 6900 59  0001 L BNN
+F 2 "Xenium2019:SOT-23" H 11000 6900 50  0001 C CNN
+F 3 "" H 11000 6900 50  0001 C CNN
+	1    11000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:NMOSSOT23 Q3
+U 1 1 09240B88
+P 4200 5500
+F 0 "Q3" H 3950 5500 59  0000 L BNN
+F 1 "310mA/60V/1.6Ω" H 4300 5500 59  0001 L BNN
+F 2 "Xenium2019:SOT-23" H 4200 5500 50  0001 C CNN
+F 3 "" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:SM10B-SRSS-TB J1
+U 1 1 2CE6A523
+P 8400 9300
+F 0 "J1" V 8300 9950 59  0000 R TNN
+F 1 "SM10B-SRSS-TB" V 8200 10650 59  0000 R TNN
+F 2 "Xenium2019:SM10B-SRSS-TB" H 8400 9300 50  0001 C CNN
+F 3 "" H 8400 9300 50  0001 C CNN
+	1    8400 9300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 9100 9860
+F 0 "#GND010" H 9100 9860 50  0001 C CNN
+F 1 "GND" H 9000 9760 59  0000 L BNN
+F 2 "" H 9100 9860 50  0001 C CNN
+F 3 "" H 9100 9860 50  0001 C CNN
+	1    9100 9860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:GND #GND015
+U 1 1 257B06B4
+P 7800 9850
+F 0 "#GND015" H 7800 9850 50  0001 C CNN
+F 1 "GND" H 7700 9750 59  0000 L BNN
+F 2 "" H 7800 9850 50  0001 C CNN
+F 3 "" H 7800 9850 50  0001 C CNN
+	1    7800 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:A3L-LOC #FRAME1
+U 1 1 9767D570
+P 900 10800
+F 0 "#FRAME1" H 900 10800 50  0001 C CNN
+F 1 "www" H 900 10800 50  0001 C CNN
+F 2 "" H 900 10800 50  0001 C CNN
+F 3 "" H 900 10800 50  0001 C CNN
+	1    900  10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:PINHD-2X7 LPC1
+U 1 1 601235BE
+P 11000 8100
+F 0 "LPC1" H 10750 8525 59  0000 L BNN
+F 1 "PINHD-2X7" H 10750 7600 59  0000 L BNN
+F 2 "Xenium2019:2X07" H 11000 8100 50  0001 C CNN
+F 3 "" H 11000 8100 50  0001 C CNN
+	1    11000 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Xenium2019-eagle-import:TPTP13SQ TP1
+U 1 1 E5F42BB8
+P 11800 6400
+F 0 "TP1" H 11750 6450 59  0001 L BNN
+F 1 "TPTP13SQ" H 11800 6400 50  0001 C CNN
+F 2 "Xenium2019:TP13SQ" H 11800 6400 50  0001 C CNN
+F 3 "" H 11800 6400 50  0001 C CNN
+	1    11800 6400
+	0    1    1    0   
+$EndComp
+Text Notes 5300 7800 0    59   ~ 0
+TDO\nTDI\nTMS\nTCK\nGND\nVREF
+Text Notes 14450 10200 0    85   ~ 0
+openXenium
+Text Notes 14450 10400 0    85   ~ 0
+September 2019
+Text Notes 14450 10000 0    85   ~ 0
+BY RYZEE119
+Text Notes 15800 10600 0    85   ~ 0
+0
+Text Notes 15900 9750 0    64   ~ 0
+Open Source Xenium Modchip CPLD Replacement for Original Xbox
+Text Notes 15900 9600 0    64   ~ 0
+https://github.com/Ryzee119/OpenXenium
+Text Notes 11200 6300 0    34   ~ 0
+BRIDGE LFRAME AND D0 PAD\nFOR 1 V1.6 XBOX
+Text Notes 4850 6350 0    34   ~ 0
+JUMPER THESE TWO PINS ON POWER ON\nTO BOOT FROM RECOVERY SECTOR
+Text Notes 4550 5200 0    42   ~ 0
+IRLML6246TRPBF
+Text Notes 4550 6000 0    42   ~ 0
+IRLML6246TRPBF
+Text Notes 4550 6700 0    42   ~ 0
+IRLML6246TRPBF
+Text Notes 7050 800  0    42   ~ 0
+(OR EQUIVALENT)
+Text Notes 11760 6750 0    42   ~ 0
+IRLML6246TRPBF
+Wire Wire Line
+	10400 1300 12500 1300
+Wire Wire Line
+	8100 8600 8100 9400
+Wire Wire Line
+	8900 8950 8900 9400
+Wire Wire Line
+	5300 4800 5300 5000
+Wire Wire Line
+	5050 6000 6500 6000
+Wire Wire Line
+	3900 7200 4200 7200
+Wire Wire Line
+	7400 8100 7400 8400
+Wire Wire Line
+	9800 7200 9800 7700
+Wire Wire Line
+	10700 6400 11700 6400
+Wire Wire Line
+	8600 6900 8600 7600
+Wire Wire Line
+	8500 6900 8500 7600
+Wire Wire Line
+	5750 7450 6100 7450
+Wire Wire Line
+	8400 6900 8400 7600
+Wire Wire Line
+	5750 7250 6300 7250
+Wire Wire Line
+	5500 1800 5500 5500
+Wire Wire Line
+	4400 5600 6800 5600
+Wire Wire Line
+	4600 5700 6800 5700
+Wire Wire Line
+	4400 6400 4600 6400
+Wire Wire Line
+	4700 5800 6800 5800
+Wire Wire Line
+	4400 7100 4700 7100
+Wire Wire Line
+	8700 7000 10700 7000
+Wire Wire Line
+	3700 4500 3700 4700
+Wire Bus Line
+	6200 7250 6200 7700
+Wire Bus Line
+	6200 7700 8600 7700
+Wire Wire Line
+	8300 6900 8300 9400
+Wire Bus Line
+	9800 8000 9800 8700
+Wire Bus Line
+	7300 8000 9800 8000
+$EndSCHEMATC
